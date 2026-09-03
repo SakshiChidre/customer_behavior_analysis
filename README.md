@@ -2,86 +2,57 @@
 
 ## Overview
 
-This project analyzes customer shopping behavior using Python and Pandas. The objective is to explore customer demographics, purchasing patterns, product preferences, reviews, subscriptions, discounts, and purchase frequency.
+This project analyzes customer shopping behavior using Python, SQL, PostgreSQL, and Power BI. The dataset contains information about customers, their purchases, product categories, ratings, subscriptions, discounts, and purchase frequency.
 
-The project includes data loading, exploratory data analysis (EDA), data cleaning, and feature engineering. The cleaned dataset is prepared for further analysis using SQL and visualization tools such as Power BI.
+The project focuses on data cleaning, exploratory data analysis, SQL-based analysis, and data visualization to identify meaningful customer purchasing patterns.
 
----
+## Tools Used
+
+- Python
+- Pandas
+- Jupyter Notebook
+- PostgreSQL
+- SQL
+- Power BI
 
 ## Dataset
 
-The dataset used in this project is:
+The dataset contains customer shopping information such as:
 
-`customer_shopping_behavior.csv`
-
-It contains **3,900 customer records** and information related to customer demographics and shopping behavior.
-
-### Main Features
-
-- Customer ID
-- Age
-- Gender
+- Age and Gender
 - Item Purchased
-- Category
+- Product Category
 - Purchase Amount
-- Location
-- Size
-- Color
-- Season
 - Review Rating
 - Subscription Status
-- Shipping Type
 - Discount Applied
-- Promo Code Used
 - Previous Purchases
 - Payment Method
-- Frequency of Purchases
-
----
-
-## Project Objectives
-
-The main objectives of this project are:
-
-- Understand the structure and characteristics of the customer shopping dataset.
-- Perform exploratory data analysis.
-- Identify and handle missing values.
-- Clean and standardize column names.
-- Create useful features for customer analysis.
-- Prepare the dataset for SQL-based analysis.
-- Prepare data for visualization and dashboard development.
-
----
-
-## Technologies Used
-
-### Programming
-
-- Python
-
-### Libraries
-
-- Pandas
-
-### Database Preparation
-
-- PostgreSQL
-- SQLAlchemy
-- psycopg2
-
-### Visualization
-
-- Power BI *(planned for dashboard development)*
-
----
+- Purchase Frequency
 
 ## Project Workflow
 
-### 1. Data Loading
+- Loaded and explored the dataset
+- Checked and handled missing values
+- Cleaned and standardized the data
+- Created useful features for analysis
+- Performed exploratory data analysis using Python
+- Stored and analyzed the data using PostgreSQL and SQL
+- Created visualizations and a dashboard using Power BI
+- Generated insights from customer purchasing behavior
 
-The dataset is loaded into a Pandas DataFrame.
+## Key Analysis Areas
 
-```python
-import pandas as pd
+The project explores:
 
-df = pd.read_csv("customer_shopping_behavior.csv")
+- Customer demographics
+- Purchasing behavior
+- Product and category preferences
+- Customer ratings
+- Subscription patterns
+- Discount usage
+- Purchase frequency
+
+## Author
+
+**Sakshi Chidre**
